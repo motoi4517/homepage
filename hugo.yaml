@@ -1,0 +1,95 @@
+baseURL: https://motoi4517.com/
+languageCode: ja-JP
+defaultContentLanguage: ja
+hasCJKLanguage: true
+title: もといちゃんハウス
+theme: PaperMod
+
+taxonomies:
+    tag: 'tags'
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  UseHugoToc: true
+  showtoc: true
+  tocopen: true
+  DateFormat: '2006-01-02'
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  disableSpecial1stPost: true
+  ShowPostNavLinks: true
+  ShowShareButtons: true
+  ShowWordCount: true
+  ShowBreadCrumbs: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  ShowRssButtonInSectionTermList: false
+  ShareButtons:
+    - x
+    - clipboard
+  
+  description: ここは基(motoi4517)の個人サイトです。
+  author: motoi4517
+  keywords: [Blog, Portfolio]
+  profileMode:
+    enabled: true
+    subtitle: "ここは基(motoi4517)の個人サイトです。"
+    imageUrl: "/images/profile.png"
+    imageTitle: "profile"
+    imageWidth: 220
+    imageHeight: 270
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Posts
+        url: "/posts"
+  socialIcons:
+      - name: "x"
+      - url: "https://x.com/motoi4517"
+      - icon: "X"
+      - name: "Fediverse"
+      - url: "https://misskey.io/@motoi4517"
+      - icon: "Fediverse"
+      - name: "note"
+      - url: "https://note.com/motoi_sv"
+      - icon: "note"
+      - name: "hatenablog"
+      - url: "https://motoi-sv.hatenablog.com/"
+      - icon: "hatenablog"
+      - name: "rss"
+      - url: "https://motoi4517.com/index.xml"
+      - icon: "rss"     
+  favicon: "images/favicon.ico"
+  favicon16x16: "/images/16x16.png"
+  favicon32x32: "/images/16x16.png"
+menu:
+  main:
+    - identifier: tags
+      name: タグ
+      url: /tags/
+      weight: 10
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
