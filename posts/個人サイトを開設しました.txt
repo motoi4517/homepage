@@ -1,0 +1,36 @@
+---
+title: "個人サイトを開設しました"
+date: 2025-02-16
+draft: false
+--- 
+
+
+こんにちは。もといです。
+
+この度個人サイトを開設しました。
+
+主に政治、宗教、野球について自由に討論する場にできたらなと思います。
+
+よろしくお願いします。
+
+嘘です。
+
+この場で何を書くかは考え中です。
+
+よろしくお願いします。
+
+<div style="display: flex; justify-content: space-between;">
+    <figure style="text-align: center;">![Image 1](/images/icon_ino.jpg)
+
+    <figcaption style="text-align: left; margin-top: 2px;">(C)bilibili</figcaption></figure>
+
+    <figure style="text-align: center;">![Image 2](/images/ino_tegaki.png)</figure>
+</div>
+
+トップページのプロフィール画像はさっき自分で描きました。
+
+『攻略うぉんてっど！～異世界救います！？～』というアニメのリュ・イノーさんをMisskeyとnoteのアイコンにしていて、これをそのまま使いたかったのですが、ここでまでアニメキャプベタ貼りはちょっとなと思い、模写しました。おえかきボードさんいつもありがとう。
+
+本サイトはHugoで生成した静的サイトをGitHub Pagesでホストしています。自分でも何言ってるか分かってないので、質問はしないでください。いやでも分からない人間なりにやったことを書く意味はあるか……気が向いたら書き留めます。
+
+あ、本サイトはリンクフリーです。
